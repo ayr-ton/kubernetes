@@ -27,7 +27,7 @@ Vagrant.configure(2) do |config|
           user: 'vagrant'
         }
         #ansible.verbose = 'vvv'
-        ansible.playbook = "../cluster.yml"
+				ansible.playbook = "../../cluster.yml"
         ansible.inventory_path = "vinventory"
 
         ansible.limit = 'all'
